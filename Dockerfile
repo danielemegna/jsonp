@@ -1,4 +1,5 @@
 FROM node:6-slim
+#FROM hypriot/rpi-node
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
